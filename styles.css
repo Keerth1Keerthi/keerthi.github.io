@@ -1,0 +1,59 @@
+body {
+    background-color: #3d405b;
+    margin: 5em 5em 5em 5em;
+    font-size: 1em;
+    flex: auto;
+    justify-content: center;
+}
+
+.card {
+    background-color: #b5838d;
+    padding: 2em;
+    border-left-width: 5em;
+    border-right-color: #03045e;
+    display: inline-block;
+
+}
+
+.card:hover {
+    border-color: #ffcdb2;
+    color: #2b2d42;
+    box-shadow: 0 0.5em 0.5em -0.4em #2b2d42;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: #3d405b;
+    display: inline-block;
+}
+
+
+button {
+    background-color: #3d405b;
+    color: #ffb4a2;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: 0.25s;
+}
+
+button:hover {
+    border-color: #ffcdb2;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffcdb2;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+}
+
+.disappear {
+    display: none;
+}
